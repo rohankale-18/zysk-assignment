@@ -25,6 +25,7 @@ import {
 	Users,
 	UserRoundPlus
 } from "lucide-react"
+import MenuCard from './MenuCard'
 
 const Navbar = () => {
 	const [open, setOpen] = React.useState(false)
@@ -41,21 +42,13 @@ const Navbar = () => {
 									<NavigationMenuItem>
 										<NavigationMenuTrigger>Products</NavigationMenuTrigger>
 										<NavigationMenuContent>
-											<Card className='h-40 w-80 border-none'>
-
-											</Card>
+											<MenuCard />
 										</NavigationMenuContent>
 									</NavigationMenuItem>
-								</NavigationMenuList>
-							</NavigationMenu>
-							<NavigationMenu>
-								<NavigationMenuList>
 									<NavigationMenuItem>
 										<NavigationMenuTrigger>Resources</NavigationMenuTrigger>
 										<NavigationMenuContent>
-											<Card className='h-40 w-80 border-none'>
-
-											</Card>
+											<MenuCard />
 										</NavigationMenuContent>
 									</NavigationMenuItem>
 								</NavigationMenuList>
