@@ -1,8 +1,9 @@
-# React + Vite
+# Zysk Frontend Assignment Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+- Landing page for the given design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Link of the design file: [Figma Design](https://www.figma.com/file/6V9PukAvgwAWA35uHV5l6b/React-Assignment?type=design&node-id=1-18169&mode=design&t=42U9hcbPpiTnr6Ql-11 )
+
+- Built using React as the frontend framework and Tailwind CSS for styling
